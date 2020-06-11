@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">  
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Minha Página</title>
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css" /> 
+
+        <!-- Estilos da Página -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" media="screen" />
+    </head>
+    <body id="page-top" class>
+        
+        <!-- Gatilho de modelo botão --> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#">Guilherme Silva</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-navegacao" 
+                        aria-controls="menu-navegacao" aria-expanded="false" aria-label="Toggle navigation">Menu
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu-navegacao">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portifolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Sobre </a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Contato</a>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+
+        <!-- Cabeçalho -->
+        <header class="cabecalho bg-primary text-white text-center"> 
+            <div class="container d-flex align-items-center flex-column">
+                <img class="cabecalho-avatar mb-5" src="img/cara.png" alt="" />
+
+                <h1 class="cabecalho-titulo text-uppercase mb-0">Guilherme Silva</h1>
+
+                <div class="divisao-customizada divisao-branca">
+                    <div class="divisao-customizada-linha"></div>
+                    <div class="divisao-customizada-icone">
+                        <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                    </div>
+                    <div class="divisao-customizada-linha"></div>
+                </div>
+
+                <p class="cabecalho-subtitulo mb-0">Analista - Desenvolvedor - FullStack</p>
+
+            </div>
+        </header>
+
+        <!-- Seção Portifolio -->
+        <section class="secao-pagina portifolio" id="portifolio">
+            <div class="container">
+                <h2 class="secao-pagina-cabecalho text-center mb-0">PORTIFÓLIO</h2>
+            
+
+                <div class="divisao-customizada divisao-branca">
+                    <div class="divisao-customizada-linha"></div>
+                    <div class="divisao-customizada-icone">
+                        <svg class="svg-inline--fa fa-star fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                    </div>
+                    <div class="divisao-customizada-linha"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portifolio-item mx-auto" data-toggle="modal" data-target="#portifolioModal1">
+                            <div class="portifolio-item-caption d-flex align-items-center justify-center h-100 w-100">
+                                <div class="portifolio-item-caption-content text-center text-white">
+                                    <svg class="svg-inline--fa fa-plus fa-w-14 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- JavaScript-->
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
+
+        <!-- <div class="overlay">
+            <header>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Portfólio</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <h1 class="site-title">Guilherme Silva</h1>
+                    <h2 class="site-subtitle">web developer</h2>
+                </div>
+            </header>
+
+            <section class="portifolio"> 
+                <h2>Projetos</h2>
+
+                <div class="grid">
+                    <figure>
+                        <img class="img-portfolio" src="img/OLO2ED0.jpg" alt="eCommerce">
+                        <figcaption>eCommerce</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="img-portfolio" src="img/jogo.jpg" alt=">Mobile">
+                        <figcaption>Mobile</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="img-portfolio" src="img/fog-on-dark-waters-edge.jpg" alt="Web design">
+                        <figcaption>Web design</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="img-portfolio" src="img/razer.png" alt="Projetos pessoais">
+                        <figcaption>Projetos pessoais</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </div> -->
+    </body>
+</html>
