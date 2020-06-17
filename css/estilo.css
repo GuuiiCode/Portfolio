@@ -76,10 +76,15 @@
 .secao-pagina-cabecalho {
     font-size: 2.25rem;
     line-height: 2rem;
-    color: #2c3e50 !important;
+    /* color: #2c3e50 !important; */
 }
 
-.portfolio .portfolio-item {
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* .portfolio .portfolio-item {
     cursor: pointer;
     position: relative;
     display: block;
@@ -102,7 +107,7 @@
 .portfolio-item-caption 
 .portfolio-item-caption-content {
     font-size: 1.5rem;
-}
+} */
 
 /* nav { 
     border: 2px solid red;
