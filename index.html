@@ -12,7 +12,7 @@
         <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen" />
 
         <!-- Bootstrap -->
-        <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css" media="screen" />
     </head>
     <body id="page-top" class>
         
@@ -21,12 +21,11 @@
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#">Guilherme Silva</a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-navegacao" 
-                        aria-controls="menu-navegacao" aria-expanded="false" aria-label="Toggle navigation">Menu
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold rounded collapsed" type="button" data-toggle="collapse" data-target="#menu-navegacao" aria-controls="menu-navegacao" aria-expanded="false" aria-label="Toggle navigation">Menu
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="menu-navegacao">
+                <div class="navbar-collapse collapse" id="menu-navegacao">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1">
                             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portifolio">Portfólio</a>
@@ -45,7 +44,7 @@
         <!-- Cabeçalho -->
         <header class="cabecalho bg-primary text-white text-center"> 
             <div class="container d-flex align-items-center flex-column">
-                <img class="cabecalho-avatar mb-5" src="img/cara.png" alt="" />
+                <img class="cabecalho-avatar mb-5" src="assets/img/cara.png" alt="" />
 
                 <h1 class="cabecalho-titulo text-uppercase mb-0">Guilherme Silva</h1>
 
@@ -65,9 +64,8 @@
         <!-- Seção Portifolio -->
         <section class="secao-pagina portifolio" id="portifolio">
             <div class="container">
-                <h2 class="secao-pagina-cabecalho text-center mb-0">PORTIFÓLIO</h2>
+                <h2 class="secao-pagina-cabecalho text-center mb-0">PORTFÓLIO</h2>
             
-
                 <div class="divisao-customizada divisao-branca">
                     <div class="divisao-customizada-linha"></div>
                     <div class="divisao-customizada-icone">
@@ -77,41 +75,72 @@
                 </div>
 
                 <div class="row">
+                    <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portifolio-item mx-auto" data-toggle="modal" data-target="#portifolioModal1">
-                            <div class="portifolio-item-caption d-flex align-items-center justify-center h-100 w-100">
-                                <div class="portifolio-item-caption-content text-center text-white">
-                                    <svg class="svg-inline--fa fa-plus fa-w-14 fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path>
-                                    </svg>
-                                </div>
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt>
+                            <img class="img-fluid" src="assets/img/cabin.png" alt="">
                         </div>
                     </div>
-                    <!-- <div class="col-md-6 col-lg-4 mb-5">
-
-                    </div>
+                    <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
-
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/cake.png" alt="">
+                        </div>
                     </div>
+                    <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
-
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/circus.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/game.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-
-                    </div> -->
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/safe.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/submarine.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        
+        
 
+       
         <!-- JQuery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         
         <!-- JavaScript-->
-        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+        <script src="assets/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 
 
         <!-- <div class="overlay">
